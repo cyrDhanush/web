@@ -1,0 +1,56 @@
+body{
+	background-image: url("../images/bg hires.jpg");
+	background-color: black;
+	color: white;
+	font-family: product sans;
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	user-select: none;
+}
+.centerparent{
+	text-align: center;
+	padding-top: 10%;
+}
+
+.bigtext{
+	font-size: 75px;
+	font-weight: bold;
+	line-height: 0.09em;
+}
+.smalltext{
+	font-size: 20px;
+}
+
+.buttons{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-family: product sans;
+	pointer-events: none;
+	padding-top: 30px;
+	user-select: none;
+}
+
+.firstbutton{
+	background-color: white;
+	color: black;
+	height: 50px;
+	border-color: white;
+	border-width: 4px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: product sans;
+	font-weight: bold;
+}
+.secondbutton{
+	padding-left: 0px;
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	border-width: 4px;
+	font-size: 20px;
+	font-family: product sans;
+	font-weight: bold;
+}
